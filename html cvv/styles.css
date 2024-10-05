@@ -1,0 +1,38 @@
+body {
+    background-color: #f8f9fa;
+  }
+
+  .profile-pic {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  .left-column {
+    padding-top: 20px;
+    background-color: #800020;
+    color: white;
+    text-align: left;
+  }
+
+  .right-column {
+    padding: 20px;
+  }
+
+  .skill-bar {
+    background-color: #e9ecef;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+
+  .skill-bar-inner {
+    background-color: #28a745;
+    height: 10px;
+    text-align: center;
+    color: white;
+  }
+</style>
+</head>
+
+<body>
