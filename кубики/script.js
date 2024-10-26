@@ -10,7 +10,6 @@ document.getElementById('rollButton').addEventListener('click', function() {
     let sum = dice1 + dice2;
     document.getElementById('result').textContent = `You rolled: ${dice1} and ${dice2}. Sum: ${sum}.`;
 
-    
     if (dice1 === dice2) {
         document.getElementById('result').textContent += ' Doubles! You win!';
     }
